@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial;
+}
+
+body{
+    background-color: rgba(241,242,244,255);
+}
+/* navbar start */
+.navbar{
+    height: 65px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.se-icon{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.nav-logo{
+    background-image: url(images/flogo.svg);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 160px;  
+}
+.nav-search input{
+    height: 40px;
+    width: 750px ;
+    border: none;
+    background-color: rgba(240,245,255,255);
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.nav-user{
+    display: flex;
+    font-size: 1rem;
+}
+.user-logo{
+    margin-right: 10px;
+}
+.user-down{
+    margin-left: 5px;
+}
+.nav-cart{
+    display: flex;
+    font-size: 1rem;
+}
+.cart-logo{
+    margin-right: 10px;
+}
+.nav-seller{
+    display: flex;
+    font-size: 1rem;
+}
+.sel-logo{
+    margin-right: 10px;
+}
+.nav-icon{
+    font-size: 1rem;
+}
+
+/* panel :start */
+
+.panel{
+    height: 126px;
+    background-color: white;
+    margin-top: 10px;
+}
+.categories{
+    height: 90%;
+    width: 90%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+.gro-img{
+    background-image: url(images/grocery.webp);
+    height: 65px;
+    width: 65px;
+    padding-bottom: 10px;
+}
+.mob-img{
+    background-image: url(images/mobiles.webp);
+    height: 65px;
+    width: 65px;
+    padding-bottom: 10px;
+}
+.app-img{
+    background-image: url(images/aplliances.webp);
+    height: 65px;
+    width: 65px;
+    padding-bottom: 10px;
+}
+.fli-img{
+    background-image: url(images/flights.webp);
+    background-size: cover;
+    height: 65px;
+    width: 65px;
+    padding-bottom: 10px;
+}
+.bea-img{
+    background-image: url(images/beauty.png);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    padding-bottom: 15px;
+}
+.fas-img{
+    background-image: url(images/fashion.png);
+    background-size: cover;
+    height: 65px;
+    width: 65px;
+    padding-bottom: 10px;
+}
+.fur-img{
+    background-image: url(images/furniture.png);
+    background-size: cover;
+    height: 65px;
+    width: 65px;
+    padding-bottom: 10px;
+}
+.category{
+    height: 10%;
+    width: 10%;
+    margin-left: 130px;
+    text-align: center;    
+    font-weight: 600;
+}
+
+
+/* banner */
+.banner-main{
+    background-image: url(images/banner.webp);
+    height: 250px;
+    width: 98%;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+
+/* content */
+
+.con-head1{
+    height: 60px;
+    background-color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 30px;
+    font-weight: 700;
+}
+.con-head2{
+    height: 60px;
+    background-color: white;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 30px;
+    font-weight: 700;
+}
+.con-data{
+    height: 280px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.data{
+    height: 80%;
+    width: 200px;
+    margin: 20px;
+    border: 1px solid rgb(53, 51, 51);
+    padding: 10px;
+
+}
+.data p{
+    text-align: center;
+    font-weight: 500;
+}
+.data h4{
+    text-align: center;
+    padding-top: 20px;
+}
+.data-img1{
+    background-image: url(images/realme.webp);
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+}
+.data-img2{
+    background-image: url(images/moto.png);
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+}
+.data-img3{
+    background-image: url(images/nothing.webp);
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+}
+.data-img4{
+    background-image: url(images/infinix.webp);
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+}
+.data-img5{
+    background-image: url(images/vivo.webp);
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+}
+.data-img6{
+    background-image: url(images/samsung.webp);
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+}
+.data-img7{
+    background-image: url(images/whey.webp);
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+}
+.data-img8{
+    background-image: url(images/tee.webp);
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+    
+}
+.data-img9{
+    background-image: url(images/drink.webp);
+    height: 70%;
+    width: 100%;
+    background-size: contain;
+}
+.data-img10{
+    background-image: url(images/dumbell.webp);
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+}
+.data-img11{
+    background-image: url(images/track.webp);
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+}
+.data-img12{
+    background-image: url(images/fitband.webp);
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+}
+
+/* ban-cont */
+.ban-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    height: 250px;
+    width: 490px;
+    margin: 5px;
+}
+
+.box1{
+    background-image: url(images/b1.webp);
+    background-size: cover;
+}
+.box2{
+    background-image: url(images/b2.webp);
+    background-size: cover;
+}
+.box3{
+    background-image: url(images/b3.webp);
+    background-size: cover;
+}
+.box4{
+    background-image: url(images/b4.webp);
+    background-size: cover;
+}
+.box5{
+    background-image: url(images/b5.webp);
+    background-size: cover;
+}
+.box6{
+    background-image: url(images/b6.webp);
+    background-size: cover;
+}
+.box7{
+    background-image: url(images/b7.webp);
+    background-size: cover;
+}
+.box8{
+    background-image: url(images/b8.webp);
+    background-size: cover;
+}
+.box9{
+    background-image: url(images/b9.webp);
+    background-size: cover;
+}
+
+/* text content */
+.matter{
+    margin-top: 20px;
+}
+
+.mt1{
+    background-color: rgba(241,242,244,255);
+    height: 750px;
+    width: 98%;
+    margin-left: 20px;
+}
+.mt2{
+    background-color: rgba(241,242,244,255);
+    height: 480px;
+    width: 98%;
+    margin-left: 20px;
+}
+.para{
+    text-align: left;
+    margin-bottom: 10px;
+    color: #565656;
+    font-size: 12px;
+    line-height: 1.6;      
+    word-spacing: 0.2em;   
+    letter-spacing: 0.05em;
+    margin-bottom: 1em;    
+    margin-top: 1em; 
+}
+
+/* footer */
+
+.ft-1{
+    height: 250px;
+    background-color: rgba(33,33,33,255);
+    color:white;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-right: 130px;
+}
+
+.ft-2{
+    height: 70px;
+    background-color: rgba(33,33,33,255);
+    border-top: 1px solid rgba(241,242,244,0.2);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+}
+ul p{
+    color: #565656;
+    margin-bottom: 20px;
+}
+ul a{
+    display: block;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 1.6;      
+    word-spacing: 0.2em;   
+    letter-spacing: 0.05em;
+   
+}
+ul{
+    margin-left: 80px;
+}
+
+.fbox{
+    color: white;
+    display: flex;
+    font-size: 0.8rem;
+}
+
+.flogo{
+    color: yellow;
+    margin-right: 8px;
+}
+
+
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid yellow;
+}
