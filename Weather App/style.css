@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+body{
+   background-color: #03071e;  
+}
+.container{
+    width:450px;
+    max-width: 470px;
+    padding: 40px 35px;
+    margin: 10px auto 0;
+    text-align: center;
+    border-radius: 20px;
+    color: #ffff;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(221,131,173,1) 0%, rgba(0,212,255,1) 100%);
+}
+.containerhead{
+    color: black;
+    background: rgb(2,0,36);
+    font-size: 1rem;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(209, 189, 198) 0%, rgba(0,212,255,1) 100%);
+    width:450px;
+    max-width: 470px;
+    padding: 10px 10px 10px 10px;
+    margin: 100px auto 0;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search input{
+    border:0;
+    outline: 0;
+    border-radius: 30px;
+    font-size: 1.5rem;
+    background-color:#ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 20px;
+}
+.search button {
+    border:0;
+    outline: 0;
+    background-color:#ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer; 
+}
+.search button img{
+    width: 20px;
+}
+.weather-icon{
+    margin-top: 10px;
+    width: 170px;
+}
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.weather h2{
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.box img{
+    width: 40px;
+    margin-right:10px;
+}
+.humidity,.wind{
+    font-size: 28px;
+    margin-top:-6px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    color: red;
+    margin-top: 20px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-right: 70px;
+    display: none;
+}
