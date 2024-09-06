@@ -1,4 +1,4 @@
-apikey="KxFQ2oucynIk3yVorAKyiqgOqNtKxEAhVV3sPhQm5jI";
+apikey="";
 
 const searchForm=document.getElementById("search-form");
 const searchBox=document.getElementById("search-box");
