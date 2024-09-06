@@ -6,6 +6,27 @@
     box-sizing: border-box;
     font-family: 'Poppins';
 }
+:root{
+    --primary-color:#242121;
+    --secondary-color:#ffffff;
+    --third-color:#6dee0a;
+    --fourth-color:#fb7c14; 
+    
+} 
+
+.light-theme{
+    --primary-color:#ffffff;
+    --secondary-color:#ff8bbf;
+    --third-color:#a2d2ff;
+    --fourth-color:#ff0072;
+}
+
+#icon{
+    cursor: pointer;
+    width: 50px;
+    margin-left: 20px;
+    margin-bottom: 450px;
+}
 body{
     width: 100%;
     height: 100vh;
@@ -18,7 +39,7 @@ body{
     border: 1px solid #717377;
     padding:20px;
     border-radius: 20px;
-    background: transparent;
+    background: var(--primary-color);
     box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
 }
 input{
@@ -26,30 +47,30 @@ input{
     border: none;
     padding: 25px;
     margin: 10px;
-    background: transparent;
+    background: var(--primary-color);
     box-shadow:  0px 3px 15px rgba(84, 84, 84, 0.3);
     font-size: 40px;
     text-align: right;
     cursor: pointer;
-    color: white;
+    color: var(--secondary-color);
 }
 input::placeholder{
-    color: #ffffff;
+    color: var(--secondary-color);
 }
 button{
     border: none;
     width: 60px;
     height: 60px;
     background: transparent;
-    color: white;
+    color: var(--secondary-color);
     margin: 10px;
     border-radius: 50%;
     font-size: 20px;
     box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.5);
 }
 .equalBtn{
-    background-color: #fb7c14;
+    background-color: var(--fourth-color);
 }
 .operator{
-    color: #6dee0a;
+    color: var(--third-color);
 }
